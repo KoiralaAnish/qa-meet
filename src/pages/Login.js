@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../meet-up.png"
-import {  useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {useState} from 'react'
  function Login () {
 
@@ -75,12 +75,12 @@ import {useState} from 'react'
               </button>
               <p className="text-sm font-semibold mt-2 pt-1 mb-0">
                 Don't have an account?
-                {/* <Link
+                <Link
                   to="/register"
                   className="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out"
                 >
                   Register
-                </Link> */}
+                </Link>
               </p>
             </div>
           </form>

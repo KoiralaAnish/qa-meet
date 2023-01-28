@@ -2,7 +2,7 @@
 const loginPage ={
     elements: {
         username: '[cy-data="username"]',
-        password: '[cy-data="passwodrd"]' ,
+        password: '[cy-data="password"]' ,
         loginButton: '[cy-data="submit-btn"]'
     },
     fillUsername(username) {
