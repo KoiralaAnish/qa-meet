@@ -7,6 +7,6 @@ describe('template spec', () => {
     cy.fixture('user.json').then((data)=>{
       loginPage.appLogin(data.username,data.password)
     })
-    //assertions-here
+    //assertions
   })
 })

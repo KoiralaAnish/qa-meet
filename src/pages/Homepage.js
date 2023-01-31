@@ -2,7 +2,7 @@ import React from 'react'
 
 function Homepage() {
   return (
-    <div>Build 2</div>
+    <div>Hey this is from build one</div>
   )
 }
 
