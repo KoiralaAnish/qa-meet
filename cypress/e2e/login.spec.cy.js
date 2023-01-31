@@ -1,5 +1,6 @@
+/// <reference types="cypress"/>
+import loginPage from '../pages/login.page'
 
-const loginPage =require('../pages/login.page')
 describe('template spec', () => {
   
   it('should login to the system', () => {

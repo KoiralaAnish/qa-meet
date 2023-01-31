@@ -5,12 +5,11 @@ const loginPage ={
         password: '[cy-data="password"]' ,
         loginButton: '[cy-data="submit-btn"]'
     },
-    fillUsername(username) {
+    fillUsername(value) {
         
-        cy.get(this.elements.username).type(username)
+        cy.get(this.elements.username).type(value)
     },
     fillPassword(value) {
-        
         
         cy.get(this.elements.password).type(value)
     },
